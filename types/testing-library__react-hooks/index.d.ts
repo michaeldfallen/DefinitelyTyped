@@ -10,7 +10,7 @@ export { act } from 'react-test-renderer';
 
 export interface RenderHookOptions<P> {
     initialProps?: P;
-    wrapper?: React.ComponentType;
+    wrapper?: React.ComponentType<P>;
 }
 
 export interface HookResult<R> {
